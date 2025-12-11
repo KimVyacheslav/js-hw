@@ -5,7 +5,7 @@
 let i = 0;
 let sum =0
 const limit = 20
-while (i<limit) {
+while (i<=limit) {
   sum+=i
 
   i++
