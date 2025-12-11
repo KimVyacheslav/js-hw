@@ -2,9 +2,12 @@
 // Результат присвойте переменной sum
 
 // your code
-let sum = 1;
-let lastSum = 20
-while (sum<=lastSum) {
-  sum++
+let i = 0;
+let sum =0
+const limit = 20
+while (i<limit) {
+  sum+=i
+
+  i++
 }
 console.log(sum)
