@@ -5,4 +5,14 @@
 */
 
 // your code
-let sum
+let sum = 0;
+lastSum = 20;
+let x = 1;
+while (x <= lastSum) {
+  if (x % 2 !== 0) {
+    sum = sum + x
+  }
+  x = x + 1
+}
+
+
